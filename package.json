@@ -1,0 +1,14 @@
+{
+  "name": "rpc-system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "client.js",
+  "dependencies": {
+    "net": "^1.0.2"
+  },
+  "scripts": {
+    "dev": "node client.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -4,7 +4,6 @@ import json
 import math
 import threading
 
-
 class Server:
     def __init__(self, socket_path):
         self.sock = socket.socket(socket.AF_UNIX, socket.SOCK_STREAM)
@@ -91,6 +90,5 @@ def main():
     server.start()
 
     
-
 if __name__ == '__main__':
     main()
