@@ -1,5 +1,4 @@
 const net = require('net');
-//const address = './socket_file';
 
 class Client {
     constructor(address){
@@ -53,19 +52,7 @@ class Client {
     }
 
 }
-// const client = net.createConnection(address);
-// client.on('connect', () => {
-//     console.log("connected.");
-// });
-// client.on('data', (data) => {
-//     console.log(data.toString());
-// });
-// client.on('end', () => {
-//     console.log('disconnected.');
-// });
-// client.on('error', (err) => {
-//     console.error(err.message);
-// });
+
 
 jsonData = [
     {
